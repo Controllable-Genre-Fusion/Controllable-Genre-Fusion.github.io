@@ -1,3 +1,8 @@
+---
+layout: default
+title: Fine-Grained Control over Music Generation
+---
+
 # Fine-Grained control over Music Generation with Activation Steering
 
 Tags: AI
@@ -14,63 +19,93 @@ Check out our paper
 
 To demonstrate our method, we start with a sample of a trumpet playing a western classical piece.
 
-[og_audio.wav](outputs/og_audio.wav)
+---
 
-And we were able to change the ‘style’/ genre:
+<audio controls preload="metadata">
+  <source src="outputs/og_audio.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+And we were able to change the style/ genre:
 
 To electronic:
-
-[classical_elec.wav](outputs/classical_elec.wav)
+<audio controls preload="metadata">
+  <source src="outputs/classical_elec.wav" type="audio/wav">
+</audio>
 
 To rock:
-
-[elec_Rock.wav](outputs/elec_Rock.wav)
+<audio controls preload="metadata">
+  <source src="outputs/elec_Rock.wav" type="audio/wav">
+</audio>
 
 Or to add a tabla accompaniment at the tempo of the melodic sample:
 
-[rock_indian (1).wav](outputs/rock_indian_(1).wav)
+<audio controls preload="metadata">
+  <source src="outputs/rock_indian_(1).wav" type="audio/wav">
+</audio>
 
 And we were also able to change instruments:
 
 To violin:
 
-[to_violin.wav](outputs/to_violin.wav)
+<audio controls preload="metadata">
+  <source src="outputs/to_violin.wav" type="audio/wav">
+</audio>
 
 To xylophone:
 
-[to_xylophone.wav](outputs/to_xylophone.wav)
+<audio controls preload="metadata">
+  <source src="outputs/to_xylophone.wav" type="audio/wav">
+</audio>
 
 Our method involves intervention during inference time, for example, in the following audio sample, we intervene in the activations at the 5th second and the change in audio is evident.
 
-[download (1).wav](outputs/download_(1).wav)
+<audio controls preload="metadata">
+  <source src="outputs/download_(1).wav" type="audio/wav">
+</audio>
+
+---
 
 ## Additional Samples
 
 Original (rock):
 
-[rock_first10s.wav](outputs/rock_first10s.wav)
+<audio controls preload="metadata">
+  <source src="outputs/hip-hop_to_folk_1.wav" type="audio/wav">
+</audio>
 
 After steering (adding pop)
 
-[rock_to_pop_5.wav](outputs/rock_to_pop_5.wav)
+<audio controls preload="metadata">
+  <source src="outputs/rock_to_pop_5.wav" type="audio/wav">
+</audio>
 
 Original (pop):
 
-[pop_first10s.wav](outputs/pop_first10s.wav)
+<audio controls preload="metadata">
+  <source src="outputs/pop_first10s.wav" type="audio/wav">
+</audio>
 
 After steering
+<audio controls preload="metadata">
+  <source src="outputs/pop_to_rock_1.wav" type="audio/wav">
+</audio>
 
-[pop_to_rock_1.wav](outputs/pop_to_rock_1.wav)
-
-[pop_to_rock_3.wav](outputs/pop_to_rock_3.wav)
+<audio controls preload="metadata">
+  <source src="outputs/pop_to_rock_3.wav" type="audio/wav">
+</audio>
 
 Original (hip-hop)
 
-[hiphop_first10s.wav](outputs/hiphop_first10s.wav)
+<audio controls preload="metadata">
+  <source src="outputs/hiphop_first10s.wav" type="audio/wav">
+</audio>
 
 After steering (adding folk):
 
-[hip-hop_to_folk_1.wav](outputs/hip-hop_to_folk_1.wav)
+<audio controls preload="metadata">
+  <source src="outputs/hip-hop_to_folk_1.wav" type="audio/wav">
+</audio>
 
 MusicGen (https://arxiv.org/abs/2306.05284) is an auto-regressive music transformer. We intervene with the activations in the residual stream or at the outputs of the attention layer to achieve fine-grained control over music generation.
 
