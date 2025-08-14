@@ -1,0 +1,12 @@
+title: "AI Rahman"
+description: "AI Rahman demo page"
+theme: slate  # built-in GitHub Pages theme
+
+# Customization
+markdown: kramdown
+highlighter: rouge
+
+# Metadata
+author:
+  name: "AI Rahman"
+  email: "airahmandatasets@gmail.com"
