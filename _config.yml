@@ -1,5 +1,5 @@
-title: "AI Rahman"
-description: "AI Rahman demo page"
+title: "Fine Grained Music Control"
+description: "Fine Grained Music Control demo page"
 theme: jekyll-theme-slate
 
 # Customization
@@ -8,5 +8,4 @@ highlighter: rouge
 
 # Metadata
 author:
-  name: "AI Rahman"
-  email: "airahmandatasets@gmail.com"
+  name: "Fine Grained Music Control"
