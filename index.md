@@ -21,65 +21,61 @@ To demonstrate our method, we start with a sample of music in a certain genre, a
 </audio>
 
 <audio controls preload="metadata">
+  <source src="outputs/classical_electronic_steered_01.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls preload="metadata">
   <source src="outputs/classical_electronic_02.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/classical_electronic_11.wav" type="audio/wav">
+  <source src="outputs/classical_electronic_steered_02.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/classical_electronic_12.wav" type="audio/wav">
+  <source src="outputs/classical_electronic_03.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/classical_electronic_14.wav" type="audio/wav">
+  <source src="outputs/classical_electronic_steered_03.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
-<audio controls preload="metadata">
-  <source src="outputs/classical_electronic_18.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
-
-<audio controls preload="metadata">
-  <source src="outputs/classical_electronic_20.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
 
 
 ### Electronic to Jazz
 ---
 <audio controls preload="metadata">
-  <source src="outputs/elec2jazz_1.wav" type="audio/wav">
+  <source src="outputs/electronic_jazz_1.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/elec2jazz_2.wav" type="audio/wav">
+  <source src="outputs/electronic_jazz_steered_1.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/elec2jazz_3.wav" type="audio/wav">
+  <source src="outputs/electronic_jazz_2.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/elec2jazz_4.wav" type="audio/wav">
+  <source src="outputs/electronic_jazz_steered_2.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/elec2jazz_5.wav" type="audio/wav">
+  <source src="outputs/electronic_jazz_3.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/elec2jazz_6.wav" type="audio/wav">
+  <source src="outputs/electronic_jazz_steered_3.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
@@ -87,12 +83,32 @@ To demonstrate our method, we start with a sample of music in a certain genre, a
 ---
 
 <audio controls preload="metadata">
-  <source src="outputs/jazz_rock_01.wav" type="audio/wav">
+  <source src="outputs/jazz_rock_1.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/jazz_rock_02.wav" type="audio/wav">
+  <source src="outputs/jazz_rock_steered_1.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls preload="metadata">
+  <source src="outputs/jazz_rock_2.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls preload="metadata">
+  <source src="outputs/jazz_rock_steered_2.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls preload="metadata">
+  <source src="outputs/jazz_rock_3.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls preload="metadata">
+  <source src="outputs/jazz_rock_steered_3.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
@@ -100,30 +116,34 @@ To demonstrate our method, we start with a sample of music in a certain genre, a
 ---
 
 <audio controls preload="metadata">
-  <source src="outputs/rock-to-classical.wav" type="audio/wav">
+  <source src="outputs/rock_classical_1.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/rock-to-classical-2.wav" type="audio/wav">
+  <source src="outputs/rock_classical_steered_1.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/rock-to-classical-3.wav" type="audio/wav">
+  <source src="outputs/rock_classical_2.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/rock-to-classical-4.wav" type="audio/wav">
+  <source src="outputs/rock_classical_steered_2.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls preload="metadata">
-  <source src="outputs/rock-to-classical-5.wav" type="audio/wav">
+  <source src="outputs/rock_classical_3.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
+<audio controls preload="metadata">
+  <source src="outputs/rock_classical_steered_3.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
 MusicGen (https://arxiv.org/abs/2306.05284) is an auto-regressive music transformer. We intervene with the activations in the residual stream or at the outputs of the attention layer to achieve fine-grained control over music generation.
 
