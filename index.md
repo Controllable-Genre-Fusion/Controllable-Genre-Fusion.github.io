@@ -9,7 +9,7 @@ Computational Music Generation is evolving towards non-conventional styles, dema
 
 # Samples
 
-To demonstrate our method, we start with a sample of music in a certain genre, and transition it into the second genre.
+To demonstrate our method, we start with a sample of music in a certain genre, and transition it into the second genre. We compare results obtained by simply prompting the model to make this transition with outputs obtained by inference-time intervention.
 
 ---
 
